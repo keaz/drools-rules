@@ -1,4 +1,4 @@
-package rules
+package com.wileu
 
 import com.alm.wiley.controller.Customer
 
