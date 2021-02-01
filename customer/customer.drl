@@ -1,4 +1,4 @@
-package com.wileu
+package com.wiley
 
 import com.alm.wiley.controller.Customer
 
@@ -6,13 +6,13 @@ rule "Standard Customer"
 	when
 		customer: Customer(age>=1)
 	then
-		customer.setDiscount(15);
+		customer.setDiscount(10);
 	end
 rule "Premium Customer"
 	when
 		customer: Customer(age>=10)
 	then
-		customer.setDiscount(25);
+		customer.setDiscount(20);
 	end
 rule "Old Customer"
 	when
